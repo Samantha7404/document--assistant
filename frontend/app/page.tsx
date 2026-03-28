@@ -21,7 +21,7 @@ export default function Home() {
     formData.append("file", file);
 
     try {
-      const response = await fetch("https://document-assistant-2.onrender.com/upload", {
+      const response = await fetch("https://document-assistant-4.onrender.com/upload", {
         method: "POST",
         body: formData,
       });
